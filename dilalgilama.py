@@ -6,7 +6,8 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import train_test_split
 
 # CSV dosyasının local path'i
-CSV_PATH = r"C:\Users\hp\Desktop\veri_klasörü\dataset.csv"
+CSV_PATH  = pd.read_csv("https://raw.githubusercontent.com/aysegul-2/deneme/main/dataset.csv")
+
 
 # 1. Model eğitimi (önceden CSV ile)
 def train_model():
